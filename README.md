@@ -6,16 +6,16 @@
 
 Package Laravel pour l'intégration de l'API SMS d'Orange. Envoyez des SMS, consultez le solde et les statistiques d'usage.
 
-## ✨ Fonctionnalités
+## Fonctionnalités
 
-- 📱 Envoi de SMS avec formatage automatique
-- 💰 Consultation du solde SMS
-- 📊 Statistiques d'usage détaillées
-- 📋 Historique des achats
-- 🔐 Authentification OAuth automatique
-- 🎭 Facade Laravel simple d'utilisation
+- Envoi de SMS avec formatage automatique
+- Consultation du solde SMS
+- Statistiques d'usage détaillées
+- Historique des achats
+- Authentification OAuth automatique
+- Facade Laravel simple d'utilisation
 
-## 🚀 Installation
+## Installation
 
 ```bash
 composer require tmoh/orange-sms-package
@@ -26,7 +26,7 @@ Publiez la configuration :
 php artisan vendor:publish --tag=orange-sms-config
 ```
 
-## ⚙️ Configuration
+## Configuration
 
 Ajoutez dans votre `.env` :
 
@@ -34,11 +34,11 @@ Ajoutez dans votre `.env` :
 ORANGE_SMS_BASE_URL=https://api.orange.com
 ORANGE_SMS_BASIC_TOKEN=your_basic_token_here
 ORANGE_SMS_DEFAULT_SENDER_ADDRESS=+224624000000
-ORANGE_SMS_DEFAULT_SENDER_NAME=SMS 987519
+ORANGE_SMS_DEFAULT_SENDER_NAME="SMS 987519"
 ORANGE_SMS_TIMEOUT=30
 ```
 
-## 📖 Utilisation
+## Utilisation
 
 ### Via la Facade
 
@@ -92,21 +92,21 @@ class SmsController extends Controller
 }
 ```
 
-## 🧪 Tests
+## Tests
 
 ```bash
 composer test
 ```
 
-## 📄 Licence
+## Licence
 
 MIT License
 
-## 📞 Support
+## Support
 
-- 📧 Email : toure1206@gmail.com
-- 🐛 Issues : [GitHub Issues](https://github.com/medchelios/orange-sms-package/issues)
+- Email : toure1206@gmail.com
+- Issues : [GitHub Issues](https://github.com/medchelios/orange-sms-package/issues)
 
 ---
 
-⭐ Si ce package vous a aidé, n'hésitez pas à le star sur GitHub !
+Si ce package vous a aidé, n'hésitez pas à le star sur GitHub !
